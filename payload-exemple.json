@@ -1,0 +1,62 @@
+{
+  "event": "media.scrobble",
+  "user": true,
+  "owner": true,
+  "Account": {
+    "id": 25814850,
+    "thumb": "https://plex.tv/users/b738a6b215a72625/avatar?c=1677254617",
+    "title": "CreepyNeck"
+  },
+  "Server": {
+    "title": "CreepyPlex",
+    "uuid": "b4c35512aa8312eda89f9c70111cefdbdc655675"
+  },
+  "Player": {
+    "local": true,
+    "publicAddress": "88.173.183.104",
+    "title": "Chrome",
+    "uuid": "mtehaawjikchedv4otq1tcx5"
+  },
+  "Metadata": {
+    "librarySectionType": "show",
+    "ratingKey": "1389",
+    "key": "/library/metadata/1389",
+    "parentRatingKey": "1356",
+    "grandparentRatingKey": "3",
+    "guid": "plex://episode/60340eadd3326a002df0dc7d",
+    "parentGuid": "plex://season/602e5b2533eb76002d602564",
+    "grandparentGuid": "plex://show/5d9c07ffffd9ef001e98a0ce",
+    "type": "episode",
+    "title": "La Pythie",
+    "titleSort": "Pythie",
+    "grandparentKey": "/library/metadata/3",
+    "parentKey": "/library/metadata/1356",
+    "librarySectionTitle": "Séries",
+    "librarySectionID": 2,
+    "librarySectionKey": "/library/sections/2",
+    "grandparentTitle": "Kaamelott",
+    "parentTitle": "Season 3",
+    "contentRating": "TV-PG",
+    "summary": "Guenièvre consulte une pythie, une diseuse de bonne aventure. Elle veut savoir si Arthur a des enfants cachés.",
+    "index": 33,
+    "parentIndex": 3,
+    "viewCount": 4,
+    "lastViewedAt": 1680904888,
+    "year": 2006,
+    "thumb": "/library/metadata/1389/thumb/1680387246",
+    "art": "/library/metadata/3/art/1680387208",
+    "parentThumb": "/library/metadata/1356/thumb/1680387244",
+    "grandparentThumb": "/library/metadata/3/thumb/1680387208",
+    "grandparentArt": "/library/metadata/3/art/1680387208",
+    "grandparentTheme": "/library/metadata/3/theme/1680387208",
+    "duration": 300000,
+    "originallyAvailableAt": "2006-01-09",
+    "addedAt": 1657555803,
+    "updatedAt": 1680387246,
+    "Guid": [
+      {
+        "id": "tvdb://338116"
+      }
+    ]
+  }
+}

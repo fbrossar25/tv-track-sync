@@ -1,0 +1,20 @@
+{
+  "event": "media.scrobble",
+  "Account": {
+    "id": 25814850,
+    "thumb": "https://plex.tv/users/b738a6b215a72625/avatar?c=1677254617",
+    "title": "CreepyNeck"
+  },
+  "Metadata": {
+    "librarySectionType": "show",
+    "type": "episode",
+    "grandparentTitle": "Kaamelott",
+    "index": 33,
+    "parentIndex": 3,
+    "Guid": [
+      {
+        "id": "tvdb://338116"
+      }
+    ]
+  }
+}
