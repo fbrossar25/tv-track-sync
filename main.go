@@ -7,19 +7,21 @@ import (
 	"net/http"
 	"os"
 	"tv-track-sync/tautulli"
+	"tv-track-sync/util"
 )
 
 func main() {
 	log.Output(zerolog.ConsoleWriter{Out: os.Stderr})
 	log.Info().Msg("Démarrage du webservice")
+	util.LoadConfig()
 
 	router := gin.Default()
 	router.GET("/check", check)
 	//plex.InitPlex(router)
 	tautulli.InitTautulli(router)
-	err := router.Run(":8090")
-	if err != nil {
-		log.Error().Stack().Err(err).Msg("Erreur au démarrage du webservice")
+	routerErr := router.Run(":8090")
+	if routerErr != nil {
+		log.Error().Stack().Err(routerErr).Msg("Erreur au démarrage du webservice")
 	}
 }
 
