@@ -22,3 +22,8 @@ Dans Webhook Settings :
     "trakt_url": "{trakt_url}"
 }
 ```
+
+## MongoDB
+
+Dans le dossier du fichier `docker-compose.yml`
+```PS > docker-compose up```

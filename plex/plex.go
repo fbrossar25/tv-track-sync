@@ -40,9 +40,11 @@ type WebhookData struct {
 		Key                  string `json:"key"`
 		ParentRatingKey      string `json:"parentRatingKey"`
 		GrandparentRatingKey string `json:"grandparentRatingKey"`
-		GUID                 []struct {
-			Id string `json:"id"`
-		} `json:"Guid"`
+		// donne une erreur de parsing...
+		//GUID                 []struct {
+		//	Id string `json:"id"`
+		//} `json:"Guid"`
+		GUID             any    `json:"Guid"`
 		LibrarySectionID int    `json:"librarySectionID"`
 		MediaType        string `json:"type"`
 		Title            string `json:"title"`
